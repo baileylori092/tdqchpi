@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://book.wrfbzj.asia/blog/8503819.sHtMl
+
+原标题：golang 系统设计分表跨表 join 业务处理方案
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：http://book.wrfbzj.asia/blog/9337879.sHtMl
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://book.wrfbzj.asia/blog/5901255.sHtMl
+
+原标题：golang 消息队列 kafka 消费开发
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://book.wrfbzj.asia/blog/0458090.sHtMl
+
+原标题：golang 接口请求日志记录中间件
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://book.wrfbzj.asia/blog/4881415.sHtMl
+
+原标题：性能复盘：GC停顿过长业务卡顿优化记录
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://book.wrfbzj.asia/blog/2490467.sHtMl
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://book.wrfbzj.asia/blog/8590389.sHtMl
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：http://book.wrfbzj.asia/blog/5046934.sHtMl
+
+原标题：安全复盘：定时任务权限过大风险管控
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://book.wrfbzj.asia/blog/7157049.sHtMl
+
+原标题：Security：密码存储哈希加盐最佳实践
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://book.wrfbzj.asia/blog/7157925.sHtMl
+
+原标题：golang 系统设计架构图绘制规范简单建议
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://book.wrfbzj.asia/blog/6047116.sHtMl
+
+原标题：golang 系统设计分库分表 id 全局生成策略
+简介：golang 数据库 ORM 框架选型对比，gorm xorm sqlx 对比各 ORM 优缺点，根据业务场景选型。
+ | 原文链接：http://book.wrfbzj.asia/blog/0412589.sHtMl
+
+原标题：看懂报错日志快速定位问题
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://book.wrfbzj.asia/blog/7269148.sHtMl
+
+原标题：项目实践：分布式会话Redis存储落地实践
+简介：golang make new 关键字使用区别，分清 new 与 make 适用类型，正确初始化切片 map 通道，杜绝 nil 引发 panic。
+ | 原文链接：http://book.wrfbzj.asia/blog/5245949.sHtMl
+
+原标题：全局异常处理器接口返回统一
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://book.wrfbzj.asia/blog/4150394.sHtMl
+
+原标题：golang etcd 租约 lease 过期机制
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://book.wrfbzj.asia/blog/7079582.sHtMl
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://book.wrfbzj.asia/blog/5292514.sHtMl
+
+原标题：golang redis 缓存击穿防护实现
+简介：golang go 二进制安全 strip 减小体积，strip 剥离二进制调试符号，缩小程序二进制文件体积。
+ | 原文链接：http://book.wrfbzj.asia/blog/5273515.sHtMl
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://book.wrfbzj.asia/blog/2050363.sHtMl
+
+原标题：排错：内网域名解析不稳定导致服务随机报错
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://book.wrfbzj.asia/blog/5969582.sHtMl
+
+原标题：golang 系统设计代码评审关注点 checklist 清单
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://book.wrfbzj.asia/blog/3272595.sHtMl
+
+原标题：DevOps：多环境镜像标签版本管理规范
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://book.wrfbzj.asia/blog/4160793.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://book.wrfbzj.asia/blog/2940515.sHtMl
+
+原标题：ICMP 放通网络丢包问题修复
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://book.wrfbzj.asia/blog/4180615.sHtMl
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://book.wrfbzj.asia/blog/5979503.sHtMl
+
+原标题：SourceMap 生成线上报错定位
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://book.wrfbzj.asia/blog/7089508.sHtMl
+
+原标题：golang 雪花 id 重复问题排查
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://book.wrfbzj.asia/blog/7494860.sHtMl
+
+原标题：优化实践：序列化框架性能对比选型实践
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://book.wrfbzj.asia/blog/7424848.sHtMl
+
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://book.wrfbzj.asia/blog/4829362.sHtMl
+
+原标题：方案对比：单体、微服务、模块化单体取舍
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://book.wrfbzj.asia/blog/2989180.sHtMl
+
+原标题：golang docker 基础命令实操汇总
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://book.wrfbzj.asia/blog/6080704.sHtMl
+
+原标题：golang 系统设计技术文档编写最佳实践
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://book.wrfbzj.asia/blog/8589560.sHtMl
+
+原标题：入门实践：使用Git完成第一次代码提交与推送
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：http://book.wrfbzj.asia/blog/4868272.sHtMl
+
+原标题：golang 灰度权重流量分发简单实现
+简介：golang go‑zero 分布式锁组件使用，go‑zero 内置 redis 分布式锁，业务直接调用实现并发控制。
+ | 原文链接：http://book.wrfbzj.asia/blog/0746251.sHtMl
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://book.wrfbzj.asia/blog/3079291.sHtMl
+
+原标题：Redis 分布式锁高并发安全实现
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://book.wrfbzj.asia/blog/6379596.sHtMl
+
+原标题：线上异常：布隆过滤器误判造成业务逻辑异常
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://book.wrfbzj.asia/blog/4274725.sHtMl
+
+原标题：网关集成鉴权限流日志一体化
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：http://book.wrfbzj.asia/blog/8504837.sHtMl
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://book.wrfbzj.asia/blog/4363413.sHtMl
+
+原标题：开发复盘：实现定时任务调度服务支持动态任务
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://book.wrfbzj.asia/blog/1076466.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang k8s job 一次性任务执行
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：http://book.wrfbzj.asia/blog/9041201.sHtMl
+
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://book.wrfbzj.asia/blog/7491817.sHtMl
+
+原标题：空指针异常判空容错处理
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://book.wrfbzj.asia/blog/6385847.sHtMl
+
+原标题：echarts 大数据渲染性能调优
+简介：golang tar gz 压缩解压处理，tar.gz 归档压缩解压，服务端日志备份、文件打包场景使用。
+ | 原文链接：http://book.wrfbzj.asia/blog/1484746.sHtMl
+
+原标题：golang 系统设计分布式锁可重入实现思路
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://book.wrfbzj.asia/blog/0717951.sHtMl
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://book.wrfbzj.asia/blog/0423020.sHtMl
+
+原标题：golang 分布式锁 redis 实现
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：http://book.wrfbzj.asia/blog/9203138.sHtMl
+
+原标题：Troubleshoot：CPU调度频繁上下文切换性能下降
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://book.wrfbzj.asia/blog/0423926.sHtMl
+
+原标题：golang 集成测试启动测试数据库
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://book.wrfbzj.asia/blog/2161257.sHtMl
+
+原标题：golang 系统设计分布式锁超时业务防死锁处理
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://book.wrfbzj.asia/blog/5278203.sHtMl
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://book.wrfbzj.asia/blog/9635250.sHtMl
+
+原标题：项目实践：幂等表实现接口幂等业务实践
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://book.wrfbzj.asia/blog/2941403.sHtMl
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://book.wrfbzj.asia/blog/6080815.sHtMl
+
+原标题：golang 项目环境变量加载方案
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://book.wrfbzj.asia/blog/9501706.sHtMl
+
+原标题：调优方案：数据库索引不要过度建立，权衡写性能
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://book.wrfbzj.asia/blog/0727068.sHtMl
+
+原标题：golang 系统设计短信发送限流降级
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://book.wrfbzj.asia/blog/0735157.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://book.wrfbzj.asia/blog/4149293.sHtMl
+
+原标题：项目实践：搭建个人API网关最小实现版本
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：http://book.wrfbzj.asia/blog/5261727.sHtMl
+
+原标题：安全实践：备份文件访问权限安全管控
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://book.wrfbzj.asia/blog/9313917.sHtMl
+
+原标题：文件监控服务自动重启开发
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：http://book.wrfbzj.asia/blog/6291706.sHtMl
+
+原标题：性能笔记：锁优化减少竞争提升并发吞吐
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://book.wrfbzj.asia/blog/6405937.sHtMl
+
+原标题：Issue：防火墙拦截ICMP，MTU问题网络丢包
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://book.wrfbzj.asia/blog/1827081.sHtMl
+
+原标题：环境变量不生效问题修复
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://book.wrfbzj.asia/blog/3089484.sHtMl
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://book.wrfbzj.asia/blog/4262405.sHtMl
+
+原标题：看懂报错日志快速定位问题
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://book.wrfbzj.asia/blog/0029130.sHtMl
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://book.wrfbzj.asia/blog/9144230.sHtMl
+
+原标题：golang docker 网络模式桥接 host
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://book.wrfbzj.asia/blog/4346757.sHtMl
+
+原标题：golang es 分页深分页性能优化
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://book.wrfbzj.asia/blog/2635131.sHtMl
+
+原标题：Performance：数据库索引优化常见错误案例
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：http://book.wrfbzj.asia/blog/8494625.sHtMl
+
+原标题：Hands‑on：简易导出PDF后端生成demo实践
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://book.wrfbzj.asia/blog/2946369.sHtMl
+
+原标题：极简方式搭建个人技术文档站点
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://book.wrfbzj.asia/blog/5384758.sHtMl
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://book.wrfbzj.asia/blog/7483574.sHtMl
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://book.wrfbzj.asia/blog/2947352.sHtMl
+
+原标题：golang 系统设计延迟消息实现几种方案对比
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://book.wrfbzj.asia/blog/2646068.sHtMl
+
+原标题：效率笔记：提升开发效率shell脚本小工具合集
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://book.wrfbzj.asia/blog/4181806.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://book.wrfbzj.asia/blog/3938162.sHtMl
+
+原标题：golang 系统设计短信发送限流降级
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://book.wrfbzj.asia/blog/7485848.sHtMl
+
+原标题：实战：基于DockerCompose搭建本地开发栈
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://book.wrfbzj.asia/blog/3183637.sHtMl
+
+原标题：运维笔记：系统内核参数调优生产服务器
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://book.wrfbzj.asia/blog/5382918.sHtMl
+
+原标题：Hands‑on：简易短消息模板渲染组件实践
+简介：golang go‑zero 分布式锁组件使用，go‑zero 内置 redis 分布式锁，业务直接调用实现并发控制。
+ | 原文链接：http://book.wrfbzj.asia/blog/0718070.sHtMl
+
+三、实战开发｜Practice
+原标题：golang elasticsearch 索引设计思路
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：http://book.wrfbzj.asia/blog/6406818.sHtMl
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：http://book.wrfbzj.asia/blog/7483925.sHtMl
+
+原标题：快速入门对象存储基础使用场景
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://book.wrfbzj.asia/blog/9627070.sHtMl
+
+原标题：架构笔记：多数据源架构设计事务处理难点
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://book.wrfbzj.asia/blog/9605138.sHtMl
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：http://book.wrfbzj.asia/blog/3059351.sHtMl
+
+原标题：新手快速上手 Git 版本控制实操指南
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://book.wrfbzj.asia/blog/0725846.sHtMl
+
+原标题：golang 系统设计压测指标确定与分析
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://book.wrfbzj.asia/blog/4757373.sHtMl
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://book.wrfbzj.asia/blog/3150303.sHtMl
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：golang go 二进制安全 strip 减小体积，strip 剥离二进制调试符号，缩小程序二进制文件体积。
+ | 原文链接：http://book.wrfbzj.asia/blog/7383696.sHtMl
+
+原标题：接口限流逻辑简单模拟实现
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://book.wrfbzj.asia/blog/4157482.sHtMl
+
+原标题：优化实践：接口批量合并减少网络请求次数
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：http://book.wrfbzj.asia/blog/6528670.sHtMl
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://book.wrfbzj.asia/blog/8742303.sHtMl
+
+原标题：设计思考：消息顺序性架构保证与业务妥协
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://book.wrfbzj.asia/blog/8695103.sHtMl
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://book.wrfbzj.asia/blog/4262737.sHtMl
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://book.wrfbzj.asia/blog/8596969.sHtMl
+
+原标题：nestjs 权限守卫鉴权实现方案
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://book.wrfbzj.asia/blog/1959170.sHtMl
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：读懂开源项目 README 实用技巧，教你快速解析开源项目说明文档，提取安装、运行、配置关键信息，快速上手项目。
+ | 原文链接：http://book.wrfbzj.asia/blog/9606837.sHtMl
+
+原标题：golang ci 流水线环境变量管理方案
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://book.wrfbzj.asia/blog/5261515.sHtMl
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://book.wrfbzj.asia/blog/5273304.sHtMl
+
+原标题：golang 系统设计缓存 key 淘汰雪崩防护思路
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：http://book.wrfbzj.asia/blog/7384749.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁防重复执行
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：http://book.wrfbzj.asia/blog/8728071.sHtMl
+
+原标题：golang redis 热点 key 业务规避
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://book.wrfbzj.asia/blog/2939153.sHtMl
+
+原标题：安全实践：请求输入校验防御恶意参数
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://book.wrfbzj.asia/blog/3645250.sHtMl
+
+原标题：简易网关请求路由过滤模拟
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://book.wrfbzj.asia/blog/6980696.sHtMl
+
+原标题：Security：Docker镜像安全扫描漏洞修复
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://book.wrfbzj.asia/blog/5282515.sHtMl
+
+原标题：Performance：避免内存拷贝，大对象处理优化
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://book.wrfbzj.asia/blog/2049281.sHtMl
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://book.wrfbzj.asia/blog/9604848.sHtMl
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://book.wrfbzj.asia/blog/6394807.sHtMl
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://book.wrfbzj.asia/blog/9594625.sHtMl
+
+原标题：开发复盘：异步消息解耦业务流程落地实践
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：http://book.wrfbzj.asia/blog/8594736.sHtMl
+
+原标题：部署实践：容器时区统一配置解决方案
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://book.wrfbzj.asia/blog/9512814.sHtMl
+
+原标题：前端大文件分片上传完整方案
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：http://book.wrfbzj.asia/blog/1535148.sHtMl
+
+原标题：golang mysql 连接泄漏检测方法
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://book.wrfbzj.asia/blog/7492848.sHtMl
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：http://book.wrfbzj.asia/blog/7483814.sHtMl
+
+原标题：golang toml 配置文件解析教程
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://book.wrfbzj.asia/blog/0840381.sHtMl
+
+原标题：零基础理解HTTP常用请求头与状态码
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：http://book.wrfbzj.asia/blog/7191436.sHtMl
+
+原标题：golang 大文件 http 下载服务
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：http://book.wrfbzj.asia/blog/7730790.sHtMl
+
+原标题：golang 系统设计延迟队列业务实现
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://book.wrfbzj.asia/blog/9812912.sHtMl
+
+原标题：GitHub 项目提交推送完整流程讲解
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://book.wrfbzj.asia/blog/2691367.sHtMl
+
+原标题：golang 系统设计分库分表中间件思路
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://book.wrfbzj.asia/blog/2050473.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang gorm 批量插入性能调优
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：http://book.wrfbzj.asia/blog/3050305.sHtMl
+
+原标题：golang 系统设计读写穿透更新缓存几种方案
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://book.wrfbzj.asia/blog/6313635.sHtMl
+
+原标题：开发记录：日志脱敏防止敏感信息输出实践
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://book.wrfbzj.asia/blog/7494030.sHtMl
+
+原标题：Architecture：灰度、蓝绿、金丝雀发布架构对比
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://book.wrfbzj.asia/blog/6371573.sHtMl
+
+原标题：单元测试用例编写入门实操
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://book.wrfbzj.asia/blog/1594737.sHtMl
+
+原标题：golang 系统设计开发环境本地调试最佳实践
+简介：golang accept 错误循环崩溃处理，accept 返回系统错误，处理临时错误，避免死循环占满 CPU。
+ | 原文链接：http://book.wrfbzj.asia/blog/4757384.sHtMl
+
+原标题：css 动画性能优化 GPU 加速
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://book.wrfbzj.asia/blog/6362514.sHtMl
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://book.wrfbzj.asia/blog/4372625.sHtMl
+
+原标题：golang ci 流水线制品仓库上传下载
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://book.wrfbzj.asia/blog/9616968.sHtMl
+
+原标题：golang 系统设计锁优化减少竞争提升吞吐
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://book.wrfbzj.asia/blog/9605735.sHtMl
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://book.wrfbzj.asia/blog/4170606.sHtMl
+
+原标题：Hands‑on：简易代理服务器开发实践
+简介：golang regexp 正则捕获分组提取数据，正则捕获分组提取子匹配内容，拿到需要业务字段。
+ | 原文链接：http://book.wrfbzj.asia/blog/3049364.sHtMl
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://book.wrfbzj.asia/blog/3939473.sHtMl
+
+原标题：Architecture：静态资源分发CDN整体架构思路
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://book.wrfbzj.asia/blog/0291828.sHtMl
+
+原标题：不必要字符转义关闭业务异常
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://book.wrfbzj.asia/blog/6079514.sHtMl
+
+原标题：nodejs 全局异常捕获进程防护
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://book.wrfbzj.asia/blog/7180806.sHtMl
+
+原标题：Issue：连接池参数不合理，大量连接被耗尽
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://book.wrfbzj.asia/blog/5920391.sHtMl
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://book.wrfbzj.asia/blog/3089694.sHtMl
+
+?
