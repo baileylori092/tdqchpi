@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计热点数据缓存处理
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://book.gkrpid.asia/blog/7490682.sHtMl
+
+原标题：坑点：npm/pip全局版本与项目本地版本冲突
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：http://book.gkrpid.asia/blog/9694585.sHtMl
+
+原标题：golang http client 连接池调优
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://book.gkrpid.asia/blog/3691470.sHtMl
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://book.gkrpid.asia/blog/2584814.sHtMl
+
+原标题：限流窗口绕过漏洞修复方案
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://book.gkrpid.asia/blog/6581289.sHtMl
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://book.gkrpid.asia/blog/8594747.sHtMl
+
+原标题：golang 配置热更新不重启服务
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://book.gkrpid.asia/blog/6823893.sHtMl
+
+原标题：线上异常：缓存雪崩带来数据库压力瞬间飙升
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://book.gkrpid.asia/blog/0680250.sHtMl
+
+原标题：golang 结构体深拷贝几种实现
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://book.gkrpid.asia/blog/6379203.sHtMl
+
+原标题：实践：API错误统一捕获与告警通知实践
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://book.gkrpid.asia/blog/0378247.sHtMl
+
+原标题：空指针异常判空容错处理
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://book.gkrpid.asia/blog/6450353.sHtMl
+
+原标题：GitHub 项目提交推送完整流程讲解
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://book.gkrpid.asia/blog/7473571.sHtMl
+
+原标题：开发代理服务网络限制解决
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://book.gkrpid.asia/blog/9249025.sHtMl
+
+原标题：看懂报错日志快速定位问题
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://book.gkrpid.asia/blog/9694794.sHtMl
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://book.gkrpid.asia/blog/9374592.sHtMl
+
+原标题：golang 系统设计网关限流熔断降级配置思路
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://book.gkrpid.asia/blog/3613682.sHtMl
+
+原标题：请求工具封装统一异常处理
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://book.gkrpid.asia/blog/9368036.sHtMl
+
+原标题：浏览器缓存强制刷新方案
+简介：golang excel 简单读写操作示例，Go 实现 Excel 简单读写，业务数据导出 Excel 报表。
+ | 原文链接：http://book.gkrpid.asia/blog/3268177.sHtMl
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://book.gkrpid.asia/blog/2927926.sHtMl
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://book.gkrpid.asia/blog/6449171.sHtMl
+
+原标题：设计实践：如何设计可扩展业务数据库表结构
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://book.gkrpid.asia/blog/1894627.sHtMl
+
+原标题：死信队列处理消息阻塞业务
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://book.gkrpid.asia/blog/9591481.sHtMl
+
+原标题：开发复盘：统一错误码体系设计落地实践
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://book.gkrpid.asia/blog/6049159.sHtMl
+
+原标题：正则表达式文本处理实战案例
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://book.gkrpid.asia/blog/2582482.sHtMl
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://book.gkrpid.asia/blog/3856930.sHtMl
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://book.gkrpid.asia/blog/2608036.sHtMl
+
+原标题：golang redis 锁超时业务处理
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://book.gkrpid.asia/blog/8038915.sHtMl
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://book.gkrpid.asia/blog/2825038.sHtMl
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：http://book.gkrpid.asia/blog/6978131.sHtMl
+
+原标题：实践：数据库回滚点业务调试实践
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://book.gkrpid.asia/blog/7362298.sHtMl
+
+原标题：开发代理服务网络限制解决
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://book.gkrpid.asia/blog/4048936.sHtMl
+
+原标题：方案对比：单体、微服务、模块化单体取舍
+简介：开源源码阅读拆解学习思路，分享阅读大型开源项目方法，从入口文件逐层拆解模块，降低源码学习门槛。
+ | 原文链接：http://book.gkrpid.asia/blog/2928828.sHtMl
+
+原标题：golang 系统设计灰度发布实现思路
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://book.gkrpid.asia/blog/1771359.sHtMl
+
+原标题：从零搭建简单Mock接口服务
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://book.gkrpid.asia/blog/0612448.sHtMl
+
+原标题：架构笔记：WebSocket大规模连接服务架构
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://book.gkrpid.asia/blog/8580401.sHtMl
+
+原标题：Troubleshoot：跨域偶现失败难以复现问题
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：http://book.gkrpid.asia/blog/0661392.sHtMl
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://book.gkrpid.asia/blog/0702392.sHtMl
+
+原标题：golang 接口请求日志记录中间件
+简介：golang 雪花算法 workId 自动获取，自动获取机器 workId，不用手动配置，简化分布式 id 部署。
+ | 原文链接：http://book.gkrpid.asia/blog/7470382.sHtMl
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://book.gkrpid.asia/blog/0661693.sHtMl
+
+原标题：golang redis 批量 pipeline 实践
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：http://book.gkrpid.asia/blog/7472581.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://book.gkrpid.asia/blog/9372572.sHtMl
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：golang go‑zero 分布式锁组件使用，go‑zero 内置 redis 分布式锁，业务直接调用实现并发控制。
+ | 原文链接：http://book.gkrpid.asia/blog/4034688.sHtMl
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://book.gkrpid.asia/blog/6368062.sHtMl
+
+原标题：安全笔记：依赖包漏洞检测供应链安全
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://book.gkrpid.asia/blog/0623571.sHtMl
+
+原标题：golang 系统设计配置本地缓存降级策略方案
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：http://book.gkrpid.asia/blog/5269181.sHtMl
+
+原标题：项目语义化版本号规范管理
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://book.gkrpid.asia/blog/5702409.sHtMl
+
+原标题：安全实践：敏感信息加密存储传输完整方案
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://book.gkrpid.asia/blog/4124914.sHtMl
+
+原标题：GC 垃圾回收优化降低 CPU 占用
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://book.gkrpid.asia/blog/3036848.sHtMl
+
+原标题：Practice：实现接口幂等性多种方案对比实践
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://book.gkrpid.asia/blog/9259247.sHtMl
+
+原标题：Performance：后端接口性能优化完整分析流程
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://book.gkrpid.asia/blog/3047930.sHtMl
+
+原标题：golang 系统设计日志架构采集存储检索完整链路
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://book.gkrpid.asia/blog/2924925.sHtMl
+
+原标题：golang 系统设计回调签名校验防伪造实现
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://book.gkrpid.asia/blog/4703593.sHtMl
+
+原标题：golang 静态文件服务搭建教程
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://book.gkrpid.asia/blog/4723582.sHtMl
+
+原标题：包管理器依赖缓存清理
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://book.gkrpid.asia/blog/6691392.sHtMl
+
+原标题：架构复盘：跨机房多活架构基础概念与代价
+简介：golang nacos go 客户端配置服务发现，nacos‑go 对接 nacos，配置管理、微服务注册发现。
+ | 原文链接：http://book.gkrpid.asia/blog/7501715.sHtMl
+
+原标题：golang minio 对象存储接口开发
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：http://book.gkrpid.asia/blog/6375849.sHtMl
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：golang go 并发模式 or‑channel 信号合并，合并多个 done 信号，任意一个完成触发退出逻辑。
+ | 原文链接：http://book.gkrpid.asia/blog/0368036.sHtMl
+
+原标题：时间精度统一业务判断修复
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://book.gkrpid.asia/blog/3035915.sHtMl
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://book.gkrpid.asia/blog/8662473.sHtMl
+
+原标题：踩坑记录：UTC时间与本地时间混用逻辑错乱
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://book.gkrpid.asia/blog/6256925.sHtMl
+
+原标题：golang 系统设计网络超时故障排查思路
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://book.gkrpid.asia/blog/9361399.sHtMl
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://book.gkrpid.asia/blog/4829141.sHtMl
+
+原标题：Hands‑on：简易频率统计组件Redis实现
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://book.gkrpid.asia/blog/5268077.sHtMl
+
+原标题：golang minio 对象存储接口开发
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：http://book.gkrpid.asia/blog/5812460.sHtMl
+
+原标题：架构复盘：热点数据防护架构防止节点过载
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://book.gkrpid.asia/blog/2038047.sHtMl
+
+原标题：Performance：数据库大表优化，冷热数据分离
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://book.gkrpid.asia/blog/0483606.sHtMl
+
+原标题：Hands‑on：简易压缩中间件gzip实现实践
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://book.gkrpid.asia/blog/7345033.sHtMl
+
+原标题：项目实践：消息队列消息确认机制业务实践
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://book.gkrpid.asia/blog/3038132.sHtMl
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://book.gkrpid.asia/blog/0702527.sHtMl
+
+原标题：项目实践：消息队列消息确认机制业务实践
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://book.gkrpid.asia/blog/0367925.sHtMl
+
+原标题：新手教程：gitstash暂存工作区变更实操
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://book.gkrpid.asia/blog/1828004.sHtMl
+
+原标题：golang 系统设计开源项目依赖版本升级维护
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://book.gkrpid.asia/blog/3812581.sHtMl
+
+原标题：Cookie 跨环境登录配置调整
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://book.gkrpid.asia/blog/2882682.sHtMl
+
+原标题：Debug：消息队列死信队列堆积无人处理业务阻塞
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：http://book.gkrpid.asia/blog/2939146.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://book.gkrpid.asia/blog/1772460.sHtMl
+
+原标题：排错：打包后资源路径，开发生产行为不一致
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://book.gkrpid.asia/blog/2925748.sHtMl
+
+原标题：golang redis bitmap 位图统计实现
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://book.gkrpid.asia/blog/1515949.sHtMl
+
+原标题：排错：CI流水线构建失败，日志无明确报错
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://book.gkrpid.asia/blog/7137902.sHtMl
+
+原标题：golang mysql 主从同步延迟兼容
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：http://book.gkrpid.asia/blog/2579448.sHtMl
+
+原标题：golang 优雅处理 http 超时设置
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://book.gkrpid.asia/blog/1479248.sHtMl
+
+三、实战开发｜Practice
+原标题：golang gitlab ci 配置自动构建镜像
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://book.gkrpid.asia/blog/3804067.sHtMl
+
+原标题：排错：HTTPS证书过期导致接口调用失败
+简介：golang 延迟队列实现方案对比，时间轮、redis zset 实现延迟队列，处理延时执行业务。
+ | 原文链接：http://book.gkrpid.asia/blog/4137935.sHtMl
+
+原标题：golang gin 静态资源访问配置
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://book.gkrpid.asia/blog/3323087.sHtMl
+
+原标题：golang 系统设计故障复盘模板 postmortem 参考
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：http://book.gkrpid.asia/blog/1555432.sHtMl
+
+原标题：部署实践：Nginx反向代理传递真实客户端IP
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://book.gkrpid.asia/blog/8713992.sHtMl
+
+原标题：快速上手简易网关转发逻辑模拟
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://book.gkrpid.asia/blog/3934560.sHtMl
+
+原标题：DNS TTL 配置域名切换生效
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://book.gkrpid.asia/blog/9256133.sHtMl
+
+原标题：golang 系统设计数据库扩容几种方式
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://book.gkrpid.asia/blog/1595681.sHtMl
+
+原标题：golang 系统设计 lru 缓存算法实现思路
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://book.gkrpid.asia/blog/5824571.sHtMl
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://book.gkrpid.asia/blog/9824905.sHtMl
+
+原标题：HelloGitWorkflow：理解简单主干开发流程
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://book.gkrpid.asia/blog/1951271.sHtMl
+
+原标题：golang 系统设计延迟消息实现几种方案对比
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://book.gkrpid.asia/blog/4169369.sHtMl
+
+原标题：golang 布隆过滤器实现去重
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://book.gkrpid.asia/blog/6235912.sHtMl
+
+原标题：多线程线程安全脏数据规避
+简介：golang 高并发下锁优化减少竞争，减小锁粒度，读写锁替换互斥锁，无锁编程降低锁竞争开销。
+ | 原文链接：http://book.gkrpid.asia/blog/9373370.sHtMl
+
+原标题：golang 协程泄露问题排查方法
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://book.gkrpid.asia/blog/5146804.sHtMl
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://book.gkrpid.asia/blog/8036692.sHtMl
+
+原标题：golang 系统设计线上日志快速检索技巧
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://book.gkrpid.asia/blog/2939171.sHtMl
+
+原标题：golang mysql 事务回滚异常处理
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：http://book.gkrpid.asia/blog/8046681.sHtMl
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：http://book.gkrpid.asia/blog/9603516.sHtMl
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://book.gkrpid.asia/blog/2480481.sHtMl
+
+原标题：架构复盘：业务系统中如何合理使用分库分表
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：http://book.gkrpid.asia/blog/7472793.sHtMl
+
+原标题：golang 系统设计短链接服务实现思路
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：http://book.gkrpid.asia/blog/7046136.sHtMl
+
+原标题：架构复盘：系统扩容缩容架构无状态优先原则
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://book.gkrpid.asia/blog/9695704.sHtMl
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://book.gkrpid.asia/blog/4159060.sHtMl
+
+原标题：Git LFS 大文件推送失败解决
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://book.gkrpid.asia/blog/7360247.sHtMl
+
+原标题：golang mysql 联合索引最左匹配
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：http://book.gkrpid.asia/blog/9714916.sHtMl
+
+原标题：新手教程：本地环境变量配置全流程
+简介：golang time 时间格式化参考时间牢记，2006‑01‑02T15:04:05Z07:00，掌握 go 时间格式化关键点。
+ | 原文链接：http://book.gkrpid.asia/blog/6925682.sHtMl
+
+原标题：golang mysql 批量导入数据实操
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://book.gkrpid.asia/blog/6474847.sHtMl
+
+原标题：多规则数据脱敏组件开发
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://book.gkrpid.asia/blog/8595604.sHtMl
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://book.gkrpid.asia/blog/8157366.sHtMl
+
+原标题：踩坑：消息队列消息堆积，消费者处理能力不足
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://book.gkrpid.asia/blog/4703469.sHtMl
+
+原标题：golang 系统设计热点数据缓存处理
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://book.gkrpid.asia/blog/7440470.sHtMl
+
+原标题：Debug：长连接未设置心跳，连接僵死不回收
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://book.gkrpid.asia/blog/1824905.sHtMl
+
+原标题：golang 系统设计 rest 版本管理几种方案对比
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://book.gkrpid.asia/blog/9373470.sHtMl
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：http://book.gkrpid.asia/blog/0268351.sHtMl
+
+原标题：性能复盘：接口响应从800ms优化到50ms全过程
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://book.gkrpid.asia/blog/1036136.sHtMl
+
+原标题：入门实践：简易导出导入文件功能实现
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://book.gkrpid.asia/blog/8147893.sHtMl
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://book.gkrpid.asia/blog/1886736.sHtMl
+
+原标题：方案设计：异步解耦业务架构边界识别
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://book.gkrpid.asia/blog/6039036.sHtMl
+
+原标题：golang etcd 租约 lease 过期机制
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://book.gkrpid.asia/blog/8189024.sHtMl
+
+四、架构设计｜Architecture
+原标题：开发代理服务网络限制解决
+简介：golang smtp 邮件发送完整示例，调用 smtp 服务发送文本与 html 格式邮件，实现邮件通知能力。
+ | 原文链接：http://book.gkrpid.asia/blog/8481671.sHtMl
+
+原标题：开发复盘：统一错误码体系设计落地实践
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://book.gkrpid.asia/blog/4157079.sHtMl
+
+原标题：不必要字符转义关闭业务异常
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://book.gkrpid.asia/blog/6359460.sHtMl
+
+原标题：踩坑：数据库连接未关闭，连接池泄露
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://book.gkrpid.asia/blog/9447144.sHtMl
+
+原标题：调优方案：数据库索引不要过度建立，权衡写性能
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：http://book.gkrpid.asia/blog/5046692.sHtMl
+
+原标题：数据库连接及时关闭连接泄漏
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://book.gkrpid.asia/blog/9612577.sHtMl
+
+原标题：前端错误监控上报系统搭建
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://book.gkrpid.asia/blog/4035692.sHtMl
+
+原标题：monorepo 项目多包管理最佳实践
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://book.gkrpid.asia/blog/6925680.sHtMl
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：golang grpc 客户端拦截器封装，grpc 客户端拦截器实现请求统一签名、重试、链路信息透传。
+ | 原文链接：http://book.gkrpid.asia/blog/9692493.sHtMl
+
+原标题：Debug：表单提交特殊字符造成接口解析失败
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：http://book.gkrpid.asia/blog/7336036.sHtMl
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://book.gkrpid.asia/blog/4007744.sHtMl
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://book.gkrpid.asia/blog/0591358.sHtMl
+
+原标题：golang kafka 批量发送消费优化
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://book.gkrpid.asia/blog/3991581.sHtMl
+
+原标题：记一次升级操作系统内核引发服务不稳定
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://book.gkrpid.asia/blog/9661804.sHtMl
+
+原标题：golang k8s 资源请求限制配置
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://book.gkrpid.asia/blog/4057793.sHtMl
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://book.gkrpid.asia/blog/0368348.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://book.gkrpid.asia/blog/5258958.sHtMl
+
+原标题：安全复盘：Nginx配置不当带来的安全风险
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://book.gkrpid.asia/blog/1367133.sHtMl
+
+?
