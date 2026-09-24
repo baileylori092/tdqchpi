@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：实践：API版本控制多种策略落地对比实践
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：m.zeecg4.asia/Article/details/8474405.sHtML
+
+原标题：系统字符集统一乱码修复
+简介：golang 分布式锁 redis 实现，基于 Redis 实现 Go 分布式锁，解决多实例并发竞争资源问题。
+ | 原文链接：m.zeecg4.asia/Article/details/3638939.sHtML
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：golang 雪花算法 workId 自动获取，自动获取机器 workId，不用手动配置，简化分布式 id 部署。
+ | 原文链接：m.zeecg4.asia/Article/details/3930168.sHtML
+
+原标题：golang 系统设计缓存与数据库一致性权衡
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：m.zeecg4.asia/Article/details/7368350.sHtML
+
+原标题：服务器时钟同步任务错乱修复
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：m.zeecg4.asia/Article/details/2636027.sHtML
+
+原标题：golang 大文件 http 下载服务
+简介：分布式事务最终一致性实现，基于可靠消息实现最终一致性，解决跨数据库跨服务业务数据一致性。
+ | 原文链接：m.zeecg4.asia/Article/details/1760584.sHtML
+
+原标题：WebSocket 双向通信 demo 开发
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：m.zeecg4.asia/Article/details/2927136.sHtML
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：m.zeecg4.asia/Article/details/0689491.sHtML
+
+原标题：项目实践：OpenTelemetry链路追踪本地部署实践
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：m.zeecg4.asia/Article/details/4149337.sHtML
+
+原标题：golang 系统设计压力测试性能测试执行流程
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：m.zeecg4.asia/Article/details/7379896.sHtML
+
+原标题：容器资源限制防止宿主机过载
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：m.zeecg4.asia/Article/details/5133736.sHtML
+
+原标题：避坑：文件锁处理不当多进程竞争死锁
+简介：golang accept 错误循环崩溃处理，accept 返回系统错误，处理临时错误，避免死循环占满 CPU。
+ | 原文链接：m.zeecg4.asia/Article/details/3360474.sHtML
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：m.zeecg4.asia/Article/details/0382392.sHtML
+
+原标题：golang jaeger 链路追踪 go 接入
+简介：golang time.Ticker 泄漏常见场景，忘记 Stop Ticker，导致协程泄漏，定时器资源无法释放。
+ | 原文链接：m.zeecg4.asia/Article/details/1201463.sHtML
+
+原标题：golang 系统设计 http3 quic 简单原理了解
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：m.zeecg4.asia/Article/details/1290342.sHtML
+
+原标题：golang 系统设计分布式事务几种方案
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：m.zeecg4.asia/Article/details/7450273.sHtML
+
+原标题：golang 雪花 id 重复问题排查
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：m.zeecg4.asia/Article/details/3926714.sHtML
+
+原标题：golang 系统设计定时任务失败重试告警实现
+简介：vite 项目配置与构建提速技巧，讲解 vite 配置优化手段，提升开发热更新速度与生产构建打包效率。
+ | 原文链接：m.zeecg4.asia/Article/details/6250167.sHtML
+
+原标题：golang 系统设计定时任务执行超时中断防护
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：m.zeecg4.asia/Article/details/3828949.sHtML
+
+原标题：部署实践：告警收敛避免告警风暴配置
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：m.zeecg4.asia/Article/details/5250381.sHtML
+
+原标题：Practice：批量异步任务处理系统设计实现
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：m.zeecg4.asia/Article/details/5250371.sHtML
+
+原标题：Security：Docker镜像安全扫描漏洞修复
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：m.zeecg4.asia/Article/details/5260681.sHtML
+
+原标题：多操作系统开发兼容处理
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：m.zeecg4.asia/Article/details/5259270.sHtML
+
+原标题：WebSocket 聊天室实时通讯开发
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：m.zeecg4.asia/Article/details/1705688.sHtML
+
+原标题：golang 系统设计分布式会话方案对比
+简介：golang http 客户端连接泄漏排查，http client 未读取响应体导致连接无法复用，解决连接泄漏耗尽连接池。
+ | 原文链接：m.zeecg4.asia/Article/details/0634046.sHtML
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：m.zeecg4.asia/Article/details/9511382.sHtML
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：m.zeecg4.asia/Article/details/0190686.sHtML
+
+原标题：Git 分支切换合并删除完整操作
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：m.zeecg4.asia/Article/details/1635059.sHtML
+
+原标题：golang 系统设计消息队列解耦削峰
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：m.zeecg4.asia/Article/details/8582706.sHtML
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：m.zeecg4.asia/Article/details/5261270.sHtML
+
+原标题：Practice：实现限流之后友好业务返回处理
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：m.zeecg4.asia/Article/details/3090170.sHtML
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：m.zeecg4.asia/Article/details/1715024.sHtML
+
+原标题：站内邮件消息通知功能开发
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：m.zeecg4.asia/Article/details/2716947.sHtML
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：m.zeecg4.asia/Article/details/6361515.sHtML
+
+原标题：nodejs 跨域中间件配置细节
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：m.zeecg4.asia/Article/details/5036947.sHtML
+
+原标题：数据库读写分离性能优化
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：m.zeecg4.asia/Article/details/9583585.sHtML
+
+原标题：golang 系统设计灰度发布流量切分实现
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：m.zeecg4.asia/Article/details/3159058.sHtML
+
+原标题：golang consul 服务发现简单示例
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：m.zeecg4.asia/Article/details/4179350.sHtML
+
+原标题：避坑：正则回溯引发CPU占满DoS风险
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：m.zeecg4.asia/Article/details/0690632.sHtML
+
+原标题：版本升级服务启动失败处理
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：m.zeecg4.asia/Article/details/5402896.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Practice：实现接口签名、验签完整示例代码
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：m.zeecg4.asia/Article/details/0794616.sHtML
+
+原标题：方案对比：几种任务队列架构选型优缺点
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：m.zeecg4.asia/Article/details/6371382.sHtML
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：m.zeecg4.asia/Article/details/7483515.sHtML
+
+原标题：golang 系统设计无锁编程思路简单示例
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：m.zeecg4.asia/Article/details/6148250.sHtML
+
+原标题：项目实践：Docker多环境镜像构建策略实践
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：m.zeecg4.asia/Article/details/3934039.sHtML
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：m.zeecg4.asia/Article/details/5201684.sHtML
+
+原标题：优化实践：序列化框架性能对比选型实践
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：m.zeecg4.asia/Article/details/7260391.sHtML
+
+原标题：golang redis 位图用户签到统计
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：m.zeecg4.asia/Article/details/9686937.sHtML
+
+原标题：优化实践：Redis管道、批量命令减少网络往返
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：m.zeecg4.asia/Article/details/8161514.sHtML
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：m.zeecg4.asia/Article/details/2604734.sHtML
+
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：m.zeecg4.asia/Article/details/4836515.sHtML
+
+原标题：性能笔记：布隆过滤器减少无效数据库查询
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：m.zeecg4.asia/Article/details/5258478.sHtML
+
+原标题：数据库连接及时关闭连接泄漏
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：m.zeecg4.asia/Article/details/4826838.sHtML
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：m.zeecg4.asia/Article/details/3783894.sHtML
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：m.zeecg4.asia/Article/details/1302724.sHtML
+
+原标题：CI 持续集成自动构建流程
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：m.zeecg4.asia/Article/details/7281794.sHtML
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：m.zeecg4.asia/Article/details/0451712.sHtML
+
+原标题：实战：接口压力测试实操，定位系统瓶颈
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：m.zeecg4.asia/Article/details/4815036.sHtML
+
+原标题：调优方案：JVM内存参数优化，降低GC频率
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：m.zeecg4.asia/Article/details/8282595.sHtML
+
+原标题：golang 系统设计回调重试幂等完整处理
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：m.zeecg4.asia/Article/details/5805982.sHtML
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：m.zeecg4.asia/Article/details/5934128.sHtML
+
+原标题：nodejs 多进程任务分发处理
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：m.zeecg4.asia/Article/details/9683693.sHtML
+
+原标题：HelloDocker：编写你的第一个Dockerfile
+简介：golang 系统资源限制读取 cpu 内存，读取系统容器 cpu 内存限制，程序适配容器资源配额做业务调优。
+ | 原文链接：m.zeecg4.asia/Article/details/6000906.sHtML
+
+原标题：golang redis 集群 hash 槽讲解
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：m.zeecg4.asia/Article/details/1474435.sHtML
+
+原标题：golang mysql 分表 id 路由逻辑
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：m.zeecg4.asia/Article/details/1555676.sHtML
+
+原标题：踩坑：数据库连接未关闭，连接池泄露
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：m.zeecg4.asia/Article/details/5056992.sHtML
+
+原标题：golang excel 简单读写操作示例
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：m.zeecg4.asia/Article/details/6299461.sHtML
+
+原标题：golang 系统设计配置热更新不重启服务实现
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：m.zeecg4.asia/Article/details/5260279.sHtML
+
+原标题：性能笔记：HTTP连接复用性能优化实践
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：m.zeecg4.asia/Article/details/4060694.sHtML
+
+原标题：设计思考：分布式会话架构选型对比
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：m.zeecg4.asia/Article/details/3925139.sHtML
+
+原标题：golang 系统设计日志架构采集存储检索完整链路
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：m.zeecg4.asia/Article/details/2926837.sHtML
+
+原标题：主干开发团队代码合并策略
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：m.zeecg4.asia/Article/details/7245138.sHtML
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：m.zeecg4.asia/Article/details/8483503.sHtML
+
+原标题：Performance：数据库join优化，大表join规避
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：m.zeecg4.asia/Article/details/6301683.sHtML
+
+原标题：优化实践：批量操作性能优化，减少数据库IO
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：m.zeecg4.asia/Article/details/0605726.sHtML
+
+原标题：效率笔记：gitlog高效查询历史提交技巧
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：m.zeecg4.asia/Article/details/1826816.sHtML
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：m.zeecg4.asia/Article/details/9524012.sHtML
+
+原标题：内网测试服务搭建团队调试
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：m.zeecg4.asia/Article/details/6360289.sHtML
+
+原标题：快速入门异步编程基础模型
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：m.zeecg4.asia/Article/details/2959455.sHtML
+
+原标题：golang 系统设计 tcp keepalive 参数调优实践
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：m.zeecg4.asia/Article/details/0793405.sHtML
+
+三、实战开发｜Practice
+原标题：golang 系统设计容量评估简单方法论
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：m.zeecg4.asia/Article/details/7180504.sHtML
+
+原标题：服务健康检查监控接口开发
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：m.zeecg4.asia/Article/details/4048270.sHtML
+
+原标题：golang 系统设计短链接服务实现思路
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：m.zeecg4.asia/Article/details/3945927.sHtML
+
+原标题：golang docker 部署 es 本地开发
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：m.zeecg4.asia/Article/details/1716915.sHtML
+
+原标题：SourceMap 生成线上报错定位
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：m.zeecg4.asia/Article/details/9524835.sHtML
+
+原标题：优化实践：多级缓存减少下游服务调用压力
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：m.zeecg4.asia/Article/details/9589503.sHtML
+
+原标题：golang docker 镜像体积优化技巧
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：m.zeecg4.asia/Article/details/4149158.sHtML
+
+原标题：golang 系统设计链路查询定位慢请求实操技巧
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：m.zeecg4.asia/Article/details/6247238.sHtML
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：m.zeecg4.asia/Article/details/3923734.sHtML
+
+原标题：Hands‑on：简易配置热更新组件开发实践
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：m.zeecg4.asia/Article/details/8599362.sHtML
+
+原标题：golang 系统设计开源 pr 评审合并流程实操
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：m.zeecg4.asia/Article/details/6361585.sHtML
+
+原标题：golang 分布式锁 redis 实现
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：m.zeecg4.asia/Article/details/7484806.sHtML
+
+原标题：golang kafka 监控指标简单梳理
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：m.zeecg4.asia/Article/details/3038138.sHtML
+
+原标题：golang 数据库连接泄露排查
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：m.zeecg4.asia/Article/details/1827906.sHtML
+
+原标题：开发复盘：大列表内存分批读取避免OOM实践
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：m.zeecg4.asia/Article/details/8606672.sHtML
+
+原标题：golang mysql json 字段查询使用
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：m.zeecg4.asia/Article/details/6968280.sHtML
+
+原标题：安全笔记：第三方SDK安全风险评估要点
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：m.zeecg4.asia/Article/details/3335957.sHtML
+
+原标题：golang 分布式锁 redis 实现
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：m.zeecg4.asia/Article/details/2827845.sHtML
+
+原标题：极简方式搭建个人技术文档站点
+简介：文件句柄上限调整上传随机失败，调高系统文件句柄上限，解决高并发上传场景随机打开文件失败。
+ | 原文链接：m.zeecg4.asia/Article/details/2935959.sHtML
+
+原标题：版本升级服务启动失败处理
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：m.zeecg4.asia/Article/details/9505683.sHtML
+
+原标题：项目实践：消息队列消息确认机制业务实践
+简介：golang redis lua 脚本原子操作，使用 Lua 脚本实现原子逻辑，减少网络往返，保障多命令原子执行。
+ | 原文链接：m.zeecg4.asia/Article/details/3925957.sHtML
+
+原标题：Shell 运维脚本服务器效率提升
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：m.zeecg4.asia/Article/details/9383615.sHtML
+
+原标题：排错：容器OOM被杀死，日志看不到任何输出
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：m.zeecg4.asia/Article/details/0794724.sHtML
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：m.zeecg4.asia/Article/details/2691823.sHtML
+
+原标题：axios 二次封装请求拦截处理
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：m.zeecg4.asia/Article/details/9392902.sHtML
+
+原标题：golang 系统设计日志规范结构化日志落地
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：m.zeecg4.asia/Article/details/4138163.sHtML
+
+原标题：golang websocket 消息广播实现
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：m.zeecg4.asia/Article/details/1472492.sHtML
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：m.zeecg4.asia/Article/details/7058280.sHtML
+
+原标题：避坑：批量操作未分批次，一次性内存打爆
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：m.zeecg4.asia/Article/details/5238896.sHtML
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：m.zeecg4.asia/Article/details/2625158.sHtML
+
+原标题：效率笔记：VSCode插件集合后端前端开发效率
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：m.zeecg4.asia/Article/details/8160461.sHtML
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：m.zeecg4.asia/Article/details/1036936.sHtML
+
+原标题：项目实践：实现统一接口返回封装与全局异常处理
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：m.zeecg4.asia/Article/details/6267802.sHtML
+
+原标题：CLI 批量处理工具文件操作开发
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：m.zeecg4.asia/Article/details/9569047.sHtML
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：m.zeecg4.asia/Article/details/7070361.sHtML
+
+原标题：死信队列处理消息阻塞业务
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：m.zeecg4.asia/Article/details/4137179.sHtML
+
+原标题：golang docker compose 依赖启动顺序
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：m.zeecg4.asia/Article/details/7372313.sHtML
+
+原标题：避坑：预编译SQL失效，出现SQL注入风险
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：m.zeecg4.asia/Article/details/1705806.sHtML
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：用户敏感数据脱敏代码实现，编写数据脱敏工具，对手机号、身份证做脱敏处理，防止敏感信息直接泄露。
+ | 原文链接：m.zeecg4.asia/Article/details/6250684.sHtML
+
+原标题：坑点：gitcherry‑pick引入不兼容代码
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：m.zeecg4.asia/Article/details/7382502.sHtML
+
+四、架构设计｜Architecture
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：m.zeecg4.asia/Article/details/5158168.sHtML
+
+原标题：WSL 搭建 Windows Linux 开发环境
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：m.zeecg4.asia/Article/details/3037280.sHtML
+
+原标题：图片上传预览格式大小处理
+简介：JWT 令牌过期异常处理，捕获 JWT 过期、篡改异常，编写业务处理逻辑，引导用户重新获取令牌。
+ | 原文链接：m.zeecg4.asia/Article/details/0636138.sHtML
+
+原标题：手写简易 RPC 服务通信原型
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：m.zeecg4.asia/Article/details/7927239.sHtML
+
+原标题：golang 系统设计第三方调用超时重试熔断
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：m.zeecg4.asia/Article/details/9695906.sHtML
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：m.zeecg4.asia/Article/details/1305672.sHtML
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：m.zeecg4.asia/Article/details/3928148.sHtML
+
+原标题：golang 系统设计传输加密 tls 配置要点
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：m.zeecg4.asia/Article/details/0828946.sHtML
+
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：m.zeecg4.asia/Article/details/3061579.sHtML
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：m.zeecg4.asia/Article/details/9594806.sHtML
+
+原标题：golang k8s 基础概念 pod deployment
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：m.zeecg4.asia/Article/details/9802612.sHtML
+
+原标题：代码格式化工具团队统一风格
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：m.zeecg4.asia/Article/details/9702623.sHtML
+
+原标题：Redis 内存淘汰策略数据防丢失
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：m.zeecg4.asia/Article/details/3035167.sHtML
+
+原标题：Issue：本地可以访问，容器内部网络不通
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：m.zeecg4.asia/Article/details/1746605.sHtML
+
+原标题：nodejs 信号处理优雅关闭服务
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：m.zeecg4.asia/Article/details/7371194.sHtML
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：m.zeecg4.asia/Article/details/0635956.sHtML
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：m.zeecg4.asia/Article/details/8479413.sHtML
+
+原标题：golang 简易埋点日志上报实现
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：m.zeecg4.asia/Article/details/6362694.sHtML
+
+?
